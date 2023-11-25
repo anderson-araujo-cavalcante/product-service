@@ -1,8 +1,8 @@
 # product-service
 
-Repository for products domain. 
+> Repository for products domain. 
 
-## Current Entities
+### Current Entities
 
 |Entity|Description|
 |------|-----------|
@@ -11,7 +11,8 @@ Repository for products domain.
 
 ### Database 📂
 
-Currently this API uses MySql(8.0) as a database.
+- Currently this API uses MySql(8.0) as a database.
+- ORM Entity Framework Core 8
 
 ### Web Reference
 
@@ -21,11 +22,11 @@ ASP.NET Core MVC CORE (.Net8)
 
 ASP.NET Core Web API (.Net8)
 
-## Local Usage
+### Local Usage
 
-Execute script ([initialDatabaseScript file](https://github.com/anderson-araujo-cavalcante/product-service/tree/main/api-product/database)) to create database and entities;
-Run solution api ([api-product.sln](https://github.com/anderson-araujo-cavalcante/product-service/tree/main/api-product)) to make routes available.
-Run solution web ([WK.Web.sln](https://github.com/anderson-araujo-cavalcante/product-service/tree/main/web/WK.Web)) to upload the application.
+1. Execute script ([initialDatabaseScript file](https://github.com/anderson-araujo-cavalcante/product-service/tree/main/api-product/database)) to create database and entities;
+1. Run solution api ([api-product.sln](https://github.com/anderson-araujo-cavalcante/product-service/tree/main/api-product)) to make routes available.
+1. Run solution web ([WK.Web.sln](https://github.com/anderson-araujo-cavalcante/product-service/tree/main/web/WK.Web)) to upload the application.
 
 ### In Progress
 
